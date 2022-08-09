@@ -1,0 +1,886 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+   list-style: none;
+}
+a,a:hover,a:focus{
+     text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*==========================================================================================
+                                    menu css start
+==========================================================================================*/
+#menu_part{
+   background: #fdf1f6;
+    padding: 36px 0;
+}
+#menu_part .logo{
+    width: 30%;
+    float: left;
+}
+#menu_part .menuitem{
+    width: 70%;
+    float: left;
+}
+#menu_part .menuitem ul li{
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    position: relative;
+    margin-left: 27px;
+}
+#menu_part .menuitem ul li a{
+    font-size: 16px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    transition: .4s;
+}
+#menu_part .menuitem ul .login{
+    margin-left: 100px;
+}
+#menu_part .menuitem ul .login a{
+    background: #fcf9fa;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    font-weight: 600;
+}
+#menu_part .menuitem ul .login:hover a{
+    background:#d50a51;
+    color: #fff;
+}
+#menu_part .menuitem ul li a:hover{
+    color: #d50a51;
+    
+}
+#menu_part .menuitem ul li a img{
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .4s;
+}
+#menu_part .menuitem ul li a:hover img{
+    opacity: 1;
+}
+
+/*==========================================================================================
+                                    menu css end
+==========================================================================================*/
+
+/*==========================================================================================
+                                    Banner css start
+==========================================================================================*/
+#banner-part{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    padding: 25px 0;
+    
+}
+
+#banner-part .img{
+    width: 50%;
+  
+    float:left;
+}
+
+#banner-part .img img{
+    width: 100%;
+}
+
+#banner-part .text{
+    width: 50%;
+    text-align: center;
+    float:left;
+}
+
+#banner-part .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 61px;
+    color: #8a5e3b;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 76px;
+}
+
+#banner-part .text h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 84px;
+    color: #d50a51;
+    font-weight: 400;
+    margin-top: -31px;
+    margin-bottom: 48px;
+}
+
+#banner-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 52px;
+    line-height: 1.6;
+}
+
+#banner-part .text a{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 28px;
+    padding: 15px 20px;
+}
+#banner-part .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+/*==========================================================================================
+                                    Banner css end
+==========================================================================================*/
+
+/*==========================================================================================
+                                    History css start
+==========================================================================================*/
+#History_part{
+    margin-top: 100px;
+}
+#History_part .img{
+    width: 50%;
+    float: left;
+}
+#History_part .text{
+    width: 50%;
+    float: left;
+}
+#History_part .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #666666;
+    width: 112px;
+    margin-left: 50px;
+}
+#History_part .text h2 span{
+    color: #d50a51;
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 11px;
+}
+#History_part .text p{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    margin-top: 37px;
+    line-height: 1.4;
+}
+
+/*==========================================================================================
+                                    History css end
+==========================================================================================*/
+
+
+/*==========================================================================================
+                                  Gift css start
+==========================================================================================*/
+#Gift_part{
+    background: #fff9e1;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+#Gift_part .text{
+    width: 50%;
+    float: left;
+    margin-top: 90px;
+}
+#Gift_part .img{
+    width: 50%;
+    float: left;
+}
+#Gift_part .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #666666;
+    width: 250px;
+    margin-left: 50px;
+}
+#Gift_part .text h2 span{
+    color: #d50a51;
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 11px;
+}
+#Gift_part .text p{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    margin-top: 37px;
+    line-height: 1.4;
+}
+#Gift_part  .text a{
+  color: #d50a51;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 28px;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 50px;
+    transition: .4s;
+}
+
+#Gift_part  .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+#Gift_part .img{
+    position: relative;
+}
+
+#Gift_part .img img{
+    position: absolute;
+    top: -86px;
+    left: 0;
+}
+
+
+/*==========================================================================================
+                                    Gift css end
+==========================================================================================*/
+
+/*--=======================================================================================
+                                        Ticket css start
+=========================================================================================--*/
+#Ticket_part{
+    width: 100%;
+    margin-top: 130px;
+}
+#Ticket_part .img{
+    width: 50%;
+    float: left;
+    padding-top: 70px;
+}
+#Ticket_part .img img{
+    width: 100%;
+   
+}
+#Ticket_part .text{
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+#Ticket_part .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #666666;
+    width: 250px;
+    margin-left: 280px;
+    text-align: right;
+}
+#Ticket_part .text h2 span{
+    color: #d50a51;
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 11px;
+    text-align: right;
+}
+#Ticket_part .text p{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    margin-top: 30px;
+    padding-left: 5px;
+    line-height: 1.4;
+    text-align: right;
+    box-sizing: border-box;
+}
+#Ticket_part  .text a{
+    color: #d50a51;
+    padding: 15px 20px;
+    border: 1px solid #d50a51;
+    border-radius: 28px;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 50px;
+    transition: .4s;
+   
+}
+
+#Ticket_part .text a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+
+
+/*--=======================================================================================
+                                        Ticket css end
+=========================================================================================--*/        
+
+
+
+/*--=======================================================================================
+                                        Sarvice css start
+========================================================================================--*/ 
+#Service_part{
+    background: #fef9fb;
+    margin-top: 130px;
+    padding: 60px 0;
+}
+#Service_part .left{
+    width: 40%;
+     float: left;
+    text-align: left;
+}
+#Service_part .right{
+    width: 60%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+#Service_part .left .text h2{
+     font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #666666;
+    width: 280px;
+    margin-left: 50px;
+}
+#Service_part .left .text h2 span{
+     color: #d50a51;
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 11px;
+}
+#Service_part .left .details p{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    margin-top: 37px;
+    line-height: 1.4;
+}
+#Service_part .right .offers{
+    width: 50%;
+    padding: 30px;
+    float: left;
+    background: transparent;
+    box-sizing: border-box;
+    border-right: 10px solid transparent;
+    transition: .4s;
+     -webkit-box-shadow: 7px 7px 5px -1px transparent;
+-moz-box-shadow: 7px 7px 5px -1px transparent;
+box-shadow: 7px 7px 5px -1px transparent;
+    
+}
+#Service_part .right .offers h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d50a51;
+}
+#Service_part .right .offers h2 img{
+    margin-right: 22px; 
+}
+#Service_part .right .offers p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+}
+#Service_part .right .offers:hover{
+    background: #f1f1f1;
+    border-right: 5px solid #d50a51;
+    -webkit-box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.47);
+-moz-box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.47);
+box-shadow: 7px 7px 5px -1px rgba(0,0,0,0.47);
+}
+
+/*--=======================================================================================
+                                        Sarvice css end
+========================================================================================--*/ 
+
+/*--=======================================================================================
+                                        capture css start
+========================================================================================--*/ 
+#Capture_part{
+    margin-top: 100px;
+}
+#Capture_part .left{
+    width: 60%;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+#Capture_part .left .img{
+     width: 48%;
+    float: left;
+    margin: 5px;
+    box-sizing: border-box; 
+    position: relative;
+   
+}
+
+#Capture_part .left .img img{
+  width: 100%;
+     display: block;
+}
+#Capture_part .left .img .overlay{
+     position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0,0.8);
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+    opacity: 0;
+}
+#Capture_part .left .img:hover .overlay{
+    opacity: 1;
+}
+#Capture_part .left .img .overlay .icon{
+    width: 38px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#Capture_part .left .img .overlay .icon i{
+    width: 38px;
+    height: 38px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+#Capture_part .left .img .overlay .icon i:hover{
+    background: #d50a51;
+    border: 1px solid #d50a51;
+}
+#Capture_part .left .img .overlay .text{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+#Capture_part .left .img .overlay .text span{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 13px;
+}
+#Capture_part .right{
+    width: 40%;
+     float: left;
+    text-align: right;
+}
+#Capture_part .right h1{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 125px;
+     font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #444444;
+    text-align: right;
+}
+#Capture_part .right h1 span{
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 600;
+    display: inline-block; 
+}
+#Capture_part .right p{
+     font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    font-size: 16px;
+    margin-top: 40px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+#Capture_part .right a{
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid #d50a51;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 30px 15px;
+    transition: .4s;
+}
+#Capture_part .right a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/*--=======================================================================================
+                                        capture css end
+========================================================================================--*/ 
+
+/*--=======================================================================================
+                                       count css start
+========================================================================================--*/ 
+#Count_part{
+    background: url(../images/banner-2.png) no-repeat center;
+    background-size: cover;
+   margin-top: 100px;
+    height: 270px;
+}
+
+/*--=======================================================================================
+                                       count css end
+========================================================================================--*/ 
+
+/*--=======================================================================================
+                                      testi css start
+=======================================================================================--*/ 
+#Testi_part{
+    width: 100%;
+   margin-top: 100px;
+}
+#Testi_part .left{
+    width: 49%;
+    float: left;
+}
+#Testi_part .right{
+    width: 49%;
+    float: left;
+    margin-left: 2%;
+    box-sizing: border-box;
+}
+#Testi_part .left .one{
+    background: #fffae2;
+    padding: 20px;
+}
+#Testi_part .left .one p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    outline-width: 400;
+}
+#Testi_part .left .one .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 40px;
+}
+#Testi_part .left .one .img img{
+     width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#Testi_part .left .one .text{
+    float: left;
+	margin-top: 65px;
+	margin-left: 15px;
+}
+#Testi_part .left .one .text .t-1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 600;
+}
+#Testi_part .left .one .text .t-2{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    outline-width: 400;
+}
+#Testi_part .right .one{
+    background: #fffae2;
+    padding: 20px;
+}
+#Testi_part .right .one p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    outline-width: 400;
+}
+#Testi_part .right .one .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 40px;
+}
+#Testi_part .right .one .img img{
+     width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#Testi_part .right .one .text{
+    float: left;
+	margin-top: 65px;
+	margin-left: 15px;
+}
+#Testi_part .right .one .text .t-1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 600;
+}
+#Testi_part .right .one .text .t-2{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    outline-width: 400;
+}
+
+
+
+/*--=======================================================================================
+                                       testi css end
+=======================================================================================--*/
+
+
+/*=========================================================================================
+        footer start
+========================================================================================*/
+
+#footer-part{
+    width: 100%;
+    background: url(../images/follow_img-1.png) no-repeat center;
+    background-size: cover;
+    margin-top: 180px;
+    position: relative;
+}
+
+
+
+
+#footer-part .logo{
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 60px;
+}
+
+#footer-part .one{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 65px;
+    
+}
+#footer-part .one ul li i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    background: #d50a51;
+    border: 1px solid #d50a51;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+#footer-part .one ul li{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444;
+    padding-left: 110px;
+}
+
+#footer-part h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #d50a51;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#footer-part .container{
+    position: relative;
+}
+#footer-part .link{
+   position: absolute;
+    bottom: 30px;
+   left: 50%;
+    transform: translateX(-50%);
+}
+
+#footer-part .link a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    text-align: center;
+    transition: .4s;
+    margin-right: 10px;
+}
+#footer-part .link a:hover i{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+/*=========================================================================================
+                                            footer end
+===========================================================================================*/
+
+/*=========================================================================================
+                                             end
+=========================================================================================*/
+#end-part{
+    width: 100%;
+    background: #fce1ed;
+}
+
+#end-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+    padding: 20px 0;
+}
+#end-part span{
+    color:  #d50a51;
+}
+/*=======================================================================================
+          end
+=====================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
